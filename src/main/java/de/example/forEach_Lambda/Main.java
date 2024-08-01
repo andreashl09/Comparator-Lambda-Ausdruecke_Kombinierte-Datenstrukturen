@@ -29,7 +29,7 @@ public class Main {
             intList.add(i);
         }
         List<Integer> newIntList = new ArrayList<>();
-        intList.forEach(zahl -> newIntList.add(+zahl * zahl));
+        intList.forEach(zahl -> newIntList.add(zahl * zahl));
         System.out.println(newIntList);
 
         list.forEach(name -> System.out.println(name.strip().length()));
